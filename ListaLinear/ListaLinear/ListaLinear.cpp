@@ -116,14 +116,15 @@ void buscarElemento()
 	else {
 		cout << "Digite um elemento para realizar a busca. ";
 		cin >> pesquisaElemento;
-			for (int i = 0; i <= 4; i++)
-			{
-				if (lista[i] == pesquisaElemento) {
-					cout << "Esse Elemento Existe na posição " << i << endl;
-					return;
-				}
-				cout << "Esse elemento não existe na lista.";
-				return;
-			};
+		int i = 0;
+		while (i <= 4) {
+			if (pesquisaElemento != lista[i]) {
+				i++
+			}
+			else {
+				cout << "Esse elemento existe na posição " << i << endl;
+				i++
+			}
+			}
 	}
 }
