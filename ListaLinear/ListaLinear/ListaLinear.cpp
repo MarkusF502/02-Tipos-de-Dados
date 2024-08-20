@@ -111,7 +111,7 @@ void buscarElemento()
 	int pesquisaElemento = 0;
 	if (nElementos == 0)
 	{
-		cout << " Nao existe nehum elemento na lista. ";
+		cout << " Nao existe nenhum elemento na lista. ";
 		return;
 	}
 	else {
