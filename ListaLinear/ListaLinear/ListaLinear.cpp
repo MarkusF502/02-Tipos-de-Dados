@@ -110,7 +110,7 @@ void buscarElemento()
 	int pesquisaElemento = 0;
 	if (nElementos == 0)
 	{
-		cout << " Não existe nehum elemento na lista. ";
+		cout << " Nao existe nehum elemento na lista. ";
 		return;
 	}
 	else {
@@ -119,11 +119,11 @@ void buscarElemento()
 		int i = 0;
 		while (i <= 4) {
 			if (pesquisaElemento != lista[i]) {
-				i++
+				i++;
 			}
 			else {
-				cout << "Esse elemento existe na posição " << i << endl;
-				i++
+				cout << "Esse elemento existe na posicao " << i << endl;
+				i++;
 			}
 			}
 	}
