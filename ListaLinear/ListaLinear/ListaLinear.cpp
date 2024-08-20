@@ -18,6 +18,7 @@ int lista[MAX]{};
 int nElementos = 0;
 
 
+
 int main()
 {
 	menu();
@@ -97,7 +98,7 @@ void inserirElemento()
 		nElementos++;
 	}
 	else {
-		cout << "Lista cheia";
+		cout << "Lista cheia ";
 	}
 
 }
@@ -106,4 +107,22 @@ void inserirElemento()
 void buscarElemento()
 {
 
+	int pesquisaElemento = 0;
+	if (nElementos == 0)
+	{
+		cout << " Não existe nehum elemento na lista. "
+	}
+	else {
+		cout << "Digite um elemento para realizar a busca. "
+			cin >> pesquisaElemento
+			for (int i = 0; i <= 4; i++)
+			{
+				if (lista[i] == pesquisaElemento) {
+					cout << "Esse Elemento Existe na posição " << lista[i];
+					return
+				}
+				cout << "Esse elemento não existe na lista.";
+				return
+			}
+	}
 }
